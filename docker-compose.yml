@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  det2:
+    build: det2/
+    volumes:
+      - /home/dkatona/AI_storage:/AI_storage/
+  ind_det:
+    build: ind_det/
+    volumes:
+      - /home/dkatona/AI_storage:/AI_storage/
+      - /home/dkatona/AI_data:/AI_data
+
+#volumes:
+#  datavolume01:
