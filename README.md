@@ -19,12 +19,12 @@ IMPORTANT: We used several drone footage and photos to train our model.
 1) Copy a picture with temp.jpg name into AI_storage folder. This image will be our processed image.
 2) With this command `sudo docker-compose run det2 python horse_detection.py` the program will automatically detect the objects (we used the detectron2 zoo model). From these objects the script will take out one, which has the the largest area (in pixel). The algorithm will crop the picture around the detected individual.
 > IMPORTANT: This is a limitation because the individual we want to identify must always take the largest area in the image.
-3) After the detection we use the detectron2 maskRCNN function to black out the background. This feature could be usefull for futher training.
+3) After the detection we use the [detectron2](https://github.com/facebookresearch/detectron2) maskRCNN function to black out the background. This feature could be usefull for futher training.
 4) Run the following command `sudo docker-compose run ind_det python ind_det.py`. The program will give us the top20 closest picture (knn method). To do that we used the previously generated AI_data/prediction.csv file.
 
 ## Current state
 
-- Currently out model is trained with 9 individuals
+- Currently our model is trained with 9 individuals
 - We are trying to improve the model precision.
 
 ## Some satisfying results
