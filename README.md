@@ -15,7 +15,7 @@ IMPORTANT: We used several drone footage and photos to train our model.
 9) You will have 3 new file in the AI_storage folder: result.json, temp_black.jpg, temp_crop.jpg
 10) The result.json file will contain the id of the individual which was the closest according to picture.
 
-## Workflow explaination:
+## Workflow explanation:
 1) Copy a picture with temp.jpg name into AI_storage folder. This image will be our processed image.
 2) With this command `sudo docker-compose run det2 python horse_detection.py` the program will automatically detect the objects (we used the detectron2 zoo model). From these objects the script will take out one, which has the the largest area (in pixel). The algorithm will crop the picture around the detected individual.
 > IMPORTANT: This is a limitation because the individual we want to identify must always take the largest area in the image.
