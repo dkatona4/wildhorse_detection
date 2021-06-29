@@ -34,3 +34,6 @@ IMPORTANT: We used several drone footage and photos to train our model.
   <img width="1000" src="https://github.com/dkatona4/wildhorse_detection/blob/main/sample_results/grad_cam_pattern_1.jpg?raw=true" alt="grad_cam_pattern_1">
   <img width="1000" src="https://github.com/dkatona4/wildhorse_detection/blob/main/sample_results/grad_cam_pattern_2.jpg?raw=true" alt="grad_cam_pattern_2">
 </p>
+
+## Acknowledgement
+This project was supported by the Microsoft [AI for Earth Community](https://www.microsoft.com/en-us/ai/ai-for-earth).
