@@ -27,7 +27,7 @@ IMPORTANT: We used several drone footage and photos to train our model.
 - Currently our model is trained with 9 individuals
 - We are trying to improve the model precision.
 
-## Some satisfying results
+## Some encouraging results
 <p align="center">
   <img width="1000" src="https://github.com/dkatona4/wildhorse_detection/blob/main/sample_results/detectron_in_work.jpg?raw=true" alt="Detectron2">
   <img width="1000" src="https://github.com/dkatona4/wildhorse_detection/blob/main/sample_results/triplet_loss_validation_test.png?raw=true" alt="Triple_loss_validation">
